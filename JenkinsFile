@@ -33,7 +33,7 @@ pipeline{
 	        stage('Build docker image'){
             steps{
                 script{
-                    sh 'docker build -t eyaghribi/Devops2 .'
+                    sh 'docker build -t eyaghribi/devops2 .'
                 }
             }
         }
@@ -44,7 +44,7 @@ pipeline{
                    sh 'docker login -u eyaghribi -p $dockerhubpwd docker.io'
 }
 
-                   sh 'docker push eyaghribi/Devops2:latest'
+                   sh 'docker push eyaghribi/devops2:latest'
                 }
             }
         }
