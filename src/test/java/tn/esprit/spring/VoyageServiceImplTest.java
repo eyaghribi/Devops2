@@ -20,7 +20,7 @@ public class VoyageServiceImplTest {
     IVoyageService VoyageService;
 
     @Test
-    public Voyage testAddVoyage() {
+    public  void Voyage testAddVoyage() {
         Voyage s = new Voyage(10L,RADES,sfax,10.0,11.0);
         VoyageService.ajouterVoyage(s);
 
