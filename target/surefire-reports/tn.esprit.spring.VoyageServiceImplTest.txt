@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: tn.esprit.spring.VoyageServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.34 sec <<< FAILURE! - in tn.esprit.spring.VoyageServiceImplTest
+initializationError(tn.esprit.spring.VoyageServiceImplTest)  Time elapsed: 0.009 sec  <<< ERROR!
+java.lang.Exception: Method testAddVoyage() should be void
+
